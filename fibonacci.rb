@@ -2,10 +2,10 @@ def fibs(num)
   fibs_arr = []
   num.times do |x|
     if x < 2
-      fibs_arr.push(x) 
+      fibs_arr << x 
     else
       fib = fibs_arr[-1] + fibs_arr[-2]
-      fibs_arr.push(fib) 
+      fibs_arr << fib 
     end
   end
   fibs_arr
